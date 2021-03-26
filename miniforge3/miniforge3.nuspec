@@ -35,7 +35,7 @@ You can provide parameters for the install, per docs at https://github.com/conda
     <releaseNotes>https://github.com/conda-forge/miniforge/releases</releaseNotes>
     <copyright>© Copyright 2021, conda-forge.</copyright>
     <tags>conda miniforge python miniforge3</tags>
-    <packageSourceUrl>https://github.com/jamesmyatt/au-packages/tree/master/miniforge3</packageSourceUrl>
+    <packageSourceUrl>https://github.com/jamesmyatt/au-packages/tree/main/miniforge3</packageSourceUrl>
     <projectSourceUrl>https://github.com/conda-forge/miniforge</projectSourceUrl>
     <docsUrl>https://github.com/conda-forge/miniforge/wiki</docsUrl>
   </metadata>

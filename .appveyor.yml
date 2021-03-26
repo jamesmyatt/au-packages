@@ -6,7 +6,7 @@ max_jobs: 1
 #clone_depth: 5
 branches:
   only:
-  - master
+  - main
 #build:
 #  verbosity: minimal
 
@@ -110,4 +110,4 @@ notifications:
   on_build_status_changed: true
 
 #on_finish:
-#- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+#- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/main/scripts/enable-rdp.ps1'))
