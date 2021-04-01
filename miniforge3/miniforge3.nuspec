@@ -9,7 +9,7 @@
     <authors>conda-forge</authors>
     <licenseUrl>https://github.com/conda-forge/miniforge/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/conda-forge/miniforge</projectUrl>
-    <iconUrl />
+    <iconUrl>https://raw.githubusercontent.com/conda-forge/conda-forge.github.io/master/img/anvil.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Miniforge is a minimal installer for Conda specific to conda-forge. It is comparable to miniforge, but with:
 
