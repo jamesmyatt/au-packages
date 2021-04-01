@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: jamesmyatt/au-packages
   github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: 1nZyI9tiArUWUf1K1lZs9VDVBzoaqi5TVT8VEibGWnkbON9JMCNzI186Pdfe+3PL
 
 
   # Mail credentials - for error notifications
@@ -34,10 +34,10 @@ environment:
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id:
+  gist_id: 5b11ba50519e2e29b1489b91c7a37a04
 
   # Force test: gist id for test results
-  gist_id_test:
+  gist_id_test: 193a71fdad19d552b16b65b4bde51601
 
   # Chocolatey API key - to push updated packages
   api_key:
