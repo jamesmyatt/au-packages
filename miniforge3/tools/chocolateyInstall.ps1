@@ -53,11 +53,8 @@ else {
 $packageArgs = @{
     packageName            = 'miniforge3'
     fileType               = 'exe'
-    url                    = 'https://github.com/conda-forge/miniforge/releases/download/4.9.2-7/Miniforge3-4.9.2-7-Windows-x86_64.exe'
     url64bit               = 'https://github.com/conda-forge/miniforge/releases/download/4.9.2-7/Miniforge3-4.9.2-7-Windows-x86_64.exe'
-    checksum               = 'c2c80a13087ee70f14fa7abdf45b4808567c6236062c63b1a9476b4fb911b778'
     checksum64             = 'c2c80a13087ee70f14fa7abdf45b4808567c6236062c63b1a9476b4fb911b778'
-    checksumType           = 'sha256'
     checksumType64         = 'sha256'
     silentArgs             = "/S /InstallationType=$InstallationType /RegisterPython=$RegisterPython /AddToPath=$AddToPath /D=$D"
     validExitCodes         = @(0)
